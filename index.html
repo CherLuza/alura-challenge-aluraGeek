@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fonte do Projeto Raleway -->
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>Challenge 03 Alura - AluraGeek</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Menu-->
+  <header>
+    <div id="logo"><img src="img/Logo.png" alt="Logotipo AluraGeek" />
+    </div>
+  </header>
+
+  <!--Banner -->
+  <section class="banner"></section>  
+
+<!--Produtos-->
+  <div class="linha">
+    <div class="coluna">
+      <div class="conteudo">   
+<!-- Conteúdo da primeira coluna -->
+                <h1 class="centro" id="title__bio">MEUS PRODUTOS:</h1>
+                <ul class="produtos wrap" id="produtos" alt="produtos-cher" data-lista>
+                </ul>
+      </div>
+      
+<!--Lista que vai aparecer os produtos, FORMULÁRIO-->
+<!-- Imagem da primeira coluna -->
+<div class="adicionar__produto">
+<h1 class="formcontato__title">ADICIONAR PRODUTO:</h1>
+
+<form class="formcontato__form" data-formulario>
+<!-- Imagem  -->
+<div class="form__campo">
+    <label class="formcontato__input" for="imagem"></label>
+    <input name="imagem" class="formcontato__input" required placeholder="Insira a url da imagem"
+        id='imagem' data-imagem />
+</div>
+
+<!-- Nome -->
+<div class="form__campo">
+    <label class="formcontato__input" for="nome"></label>
+    <input name="nome" class="formcontato__input" required placeholder="Nome do produto"
+        id='nome' data-nome />
+</div>
+
+<div class="form__campo">
+    <label class="formcontato__input" for="alt"></label>
+    <input name="alt" class="formcontato__input" required placeholder="Texto alternativo, caso a imagem não carregue"
+        id='alt' data-alt />
+</div>
+
+<!-- Valor  -->
+<div class="form__campo">
+    <label class="formcontato__input" for="valor"></label>
+    <input name="valor" class="formcontato__input" required placeholder="Valor (em reais) do produto"
+        id='valor' data-valor />
+</div>
+
+<!-- Categoria  -->
+<div class="form__campo">
+    <label class="formcontato__input" for="categoria"></label>
+    <input name="categoria" class="formcontato__input" required placeholder="Categoria do produto"
+        id='categoria' data-categoria />
+</div>      
+              <div class="buttons">
+                <button class="button-encrypter" type="submit">
+                  Guardar
+                </button>
+      
+                <button class="button-clean-text">
+                  Limpar
+                </button>
+              </div>    
+      
+            </form>    
+     </div>
+    </div>
+  </div>
+ 
+  <!--RODAPÉ-->
+  <footer>
+    <div class="coluna dois">
+      <div id="logo"><img src="img/Logo.png" alt="Logotipo AluraGeek" />
+      </div>
+      <h1 class="centro" id="footer__text">Desenvolvido por Cher Oliboni Luza</h1>
+      <p class="centro"> ALURA LATAM - 2024</p>
+    </div>
+  </footer>
+  <!-- Script do JavaScript -->
+   <script src="js/mostrarVideos.js" type="module"></script>
+ <script src="js/criarVideo.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+{
+  "produtos": [
+    {
+      "nome": "Produto 01",
+      "valor": 29.9,
+      "imagem": "img/E1051485_1_1920x1920.jpg",
+      "alt": "Produto 01",
+      "categoria": "roupas",
+      "id": "f2e3"
+    },
+    {
+      "nome": "Produto 02",
+      "valor": 19.9,
+      "imagem": "img/E1051485_2_1920x1920.jpg",
+      "alt": "Produto 02",
+      "categoria": "brinquedos",
+      "id": "0df3"
+    },
+    {
+      "nome": "Produto 03",
+      "valor": 45.5,
+      "imagem": "img/E1053766_1_1920x1920.jpg",
+      "alt": "Produto 03",
+      "categoria": "brinquedos",
+      "id": "22f4"
+    },
+    {
+      "nome": "Produto 04",
+      "valor": 89.9,
+      "imagem": "img/E1053766_2_1920x1920.jpg",
+      "alt": "Produto 04",
+      "categoria": "roupas",
+      "id": "2fb1"
+    },
+    {
+      "nome": "Produto 05",
+      "valor": 89.9,
+      "imagem": "img/E1053766_3_1920x1920.jpg",
+      "alt": "Produto 05",
+      "categoria": "joias",
+      "id": "c314"
+    },
+    {
+      "nome": "Produto 06",
+      "valor": 39.9,
+      "imagem": "img/linda2024_001aaaa.png",
+      "alt": "Produto 06",
+      "categoria": "brinquedos",
+      "id": "05aa"
+    },
+    {
+      "nome": "Produto 07",
+      "valor": 89.9,
+      "imagem": "img/E1051485_1_1920x1920.jpg",
+      "alt": "Produto 07",
+      "categoria": "joias",
+      "id": "380e"
+    },
+    {
+      "nome": "Produto 08",
+      "valor": 59.9,
+      "imagem": "img/E1051485_1_1920x1920.jpg",
+      "alt": "Produto 08",
+      "categoria": "brinquedos",
+      "id": "45d4"
+    },
+    {
+      "nome": "Produto 09",
+      "valor": 89.9,
+      "imagem": "img/E1053766_1_1920x1920.jpg",
+      "alt": "Produto 09",
+      "categoria": "joias",
+      "id": "4dbe"
+    },
+    {
+      "id": "109f",
+      "nome": "teste1005",
+      "valor": "14",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXkDMGgjWuZz5wl78RMH6csdz6ErEcU0Ft8pYzjAueKA&s",
+      "alt": "teste",
+      "categoria": "roupas"
+    },
+    {
+      "id": "ddcc",
+      "nome": "Blusa seleção brasileira",
+      "valor": "85",
+      "imagem": "https://s2-ge.glbimg.com/QiIHQvqeR-ykBeEnqpx1TcogRIo=/0x0:1080x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/8/U/qcqrkgT1AnTx4aTPEk6w/publicpreview-3.png",
+      "alt": "blusa time",
+      "categoria": "roupas"
+    },
+    {
+      "id": "8bc3",
+      "nome": "Vestido",
+      "valor": "239",
+      "imagem": "https://www.lojasrenner.com.br/p/vestido-midi-em-viscolinho-com-manga-bufante-e-estampa-florida/-/A-914576760-br.lr?sku=914576807",
+      "alt": "Vestido01",
+      "categoria": "roupas"
+    }
+  ]
+}
