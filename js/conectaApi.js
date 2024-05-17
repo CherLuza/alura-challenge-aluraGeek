@@ -1,12 +1,12 @@
 async function listaVideos() {
-    const conexao = await fetch("http://localhost:3000/produtos");
+    const conexao = await fetch("https://alura-challenge-alura-geek.vercel.app/produtos");
     const conexaoConvertida = await conexao.json();
 
     return conexaoConvertida;
 }
 
 async function criaVideo(nome, valor, imagem, alt, categoria) {
-    const conexao = await fetch("http://localhost:3000/produtos", {
+    const conexao = await fetch("https://alura-challenge-alura-geek.vercel.app/produtos", {
         method: "POST",
         headers: {
             "Content-type": "application/json"
